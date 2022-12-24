@@ -1,9 +1,5 @@
 -- SQLBook: Code
 -- Active: 1667084476415@@127.0.0.1@3306@dannys_dinner
-select * from  sales
-
-
-
 -- SQLBook: Code
 -- Active: 1667084476415@@127.0.0.1@3306@dannys_dinner
 --What is the total amount each customer spent at the restaurant?
@@ -14,6 +10,7 @@ ON sales.product_id = menu.product_id)
 SELECT customer_id, SUM(price)
 FROM total
 GROUP BY customer_id;
+
 
 --How many days has each customer visited the restaurant?
 WITH days AS (SELECT customer_id, order_date

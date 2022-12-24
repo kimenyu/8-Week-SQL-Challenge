@@ -1,5 +1,5 @@
 <h1> <b> Case Study #1 - Danny's Diner</b> </h1>
-<img src = "http://www.8weeksqlchallenge.com/%7B%7B%20site.baseurl%20%7D%7D/images/case-study-designs/1.png" alt = "Dannys dinner">
+<img src = "D:\sql\danny.png" alt = "Dannys dinner">
 <h2> <b> INTRODUCTION</b> </h2>
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
 

@@ -14,6 +14,7 @@ ON sales.product_id = menu.product_id)
 SELECT customer_id, SUM(price)
 FROM total
 GROUP BY customer_id;
+<img src = "D:\danny\images\one" alt = "quiz one" width="460" height="345">
 
 --How many days has each customer visited the restaurant?
 WITH days AS (SELECT customer_id, order_date
